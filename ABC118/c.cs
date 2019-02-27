@@ -14,10 +14,8 @@ public class Program
 		}
 		var min = a.Min();
 		while(a.Count(x=>x%min!=0) != 0){
-			a.ForEach(x=>x=x%min);
-			min = a.Where(x=>x!=0).Min();
+			min = a.Select(x=>x%min).Where(x=>x!=0).Min();
 		}
-		
 		Console.WriteLine(min);
 	}
 }
