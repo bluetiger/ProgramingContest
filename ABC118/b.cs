@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
-public class ABC118B
+					
+public class Program
 {
 	public static void Main()
 	{
