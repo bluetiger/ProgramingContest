@@ -6,7 +6,7 @@ namespace ProgrammingContest
     {
         static void Main(string[] args)
         {
-            ABC119B.Main();
+            ABC118A.Main();
         }
     }
 }
